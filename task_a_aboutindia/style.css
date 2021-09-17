@@ -1,0 +1,132 @@
+
+.india{
+  background-color: #9933cc;
+  color: white;
+  height: 70px;
+ font-size: 30px;
+ text-align: center;
+ padding: 10px;
+ width: 100%;
+}
+.left_content{
+  display: inline-block;
+  padding-top: 20px;
+}
+.left_items{
+  background-color:#33b5e5;
+  color: white;
+  width: 290px;
+  height: 35px;
+  padding: 5px;
+  margin-bottom: 4px;
+  font-size: 17px;
+}
+.justwo{
+  display:flex;
+  width: 634px;
+}
+.center_content{
+  display:inline-block;
+  width: 634px;
+  padding: 25px;
+}
+.bol{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.right_content{
+  display: inline-block;
+  background-color: #33b5e5;
+  color: white;
+  padding: 30px 5px 5px 5px;
+}
+.list_title{
+  font-weight: bold;
+  font-size:20px;
+}
+.whole{
+  display: flex;
+  padding: 20px;
+}
+.just{
+  font-size: 16px;
+  display: flex;
+}
+li{
+  font-size: 17px;
+}
+
+@media screen and (max-width:770px) {
+  .whole{
+    display:table-cell;
+    padding: 20px;
+    position:relative;
+    bottom: 40px;
+  }
+  .bol{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+  }
+  .right_content{
+    display: block;
+    width: 100%;
+}
+.just{
+  display: flex;
+}
+.justwo{
+  width: 100%;
+}
+.left_items{
+  background-color:#33b5e5;
+  color: white;
+  width: 170px;
+}
+
+.center_content{
+  display:block;
+  width: 100%;
+  padding: 25px;
+}
+.jus{
+  font-size: 14px;
+}
+}
+
+@media screen and (max-width:500px) {
+  .whole{
+    display:inline-block;
+    padding:0;
+    position: relative;
+    bottom: 10px;
+  }
+  .center_content{
+    display:block;
+    width: 100%;
+    padding: 0px;
+  }
+  .just{
+    display: block;
+  }
+  .left_content{
+    width: 100%;
+  }
+  .left_items{
+    background-color:#33b5e5;
+    color: white;
+    width: 100%;
+  }
+  .right_content{
+    display: block;
+    background-color: #33b5e5;
+    color: white;
+    padding: 30px 9px 5px 9px;
+    width: 100%;
+  }
+  .justwo{
+    width: auto;
+  }
+}
